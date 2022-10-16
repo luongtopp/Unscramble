@@ -9,6 +9,7 @@ LÀM ĐI
        name="gameViewModel"
        type="com.example.android.unscramble.ui.game.GameViewModel" />
  </data>
+ 
 + Talkback
 val currentScrambledWord: LiveData<Spannable> = Transformations.map(_currentScrambledWord) {
   if (it == null) {
